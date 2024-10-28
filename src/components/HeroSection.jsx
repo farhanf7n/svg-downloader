@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
-    <div className="p-2 flex justify-center gap-3 text-blue-800 rounded-xl w-full lg:w-[700px] mx-auto">
-      <div className="flex flex-col items-center justify-start gap-3 w-4/5">
+    <div className="p-3 sm:p-4 flex flex-col lg:flex-row justify-center gap-3 text-blue-800 rounded-xl w-full lg:w-[700px] mx-auto">
+      <div className="flex flex-col items-center justify-start gap-3 w-full xl:w-4/5">
         <input
           className=" w-full p-3 rounded-md text-slate-400 shadow-[0px_2px_3px_-2px_#B4E903] border border-[#F0F2F7] focus:outline-none placeholder:text-gray-500"
           type="text"
@@ -17,10 +17,11 @@ export default function HeroSection() {
         </div>
       </div>
       <div
-        className="flex flex-col justify-start items-center gap-3 w-1/5
+        className="flex flex-col justify-start items-center gap-3 w-full xl:w-1/5
 "
       >
         <button class="button bg-white border font-medium border-gray-30 ring-primary hover:border-primary hover:ring-1 hover:text-primary text-gray-600 h-10 rounded-md px-3 py-2 text-sm flex justify-center items-center gap-2 w-full">
+          Download
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -51,10 +52,10 @@ export default function HeroSection() {
               stroke-linejoin="round"
             />
           </svg>
-          Download
         </button>
 
         <button class="button bg-white border font-medium border-gray-30 ring-primary hover:border-primary hover:ring-1 hover:text-primary text-gray-600 rounded-md px-3 py-2 text-sm flex justify-center items-center gap-2 w-full">
+          Download
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -78,7 +79,6 @@ export default function HeroSection() {
               stroke-linejoin="round"
             />
           </svg>
-          Download
         </button>
       </div>
     </div>
