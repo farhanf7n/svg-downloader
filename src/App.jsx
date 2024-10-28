@@ -1,9 +1,11 @@
 import "./App.css";
-
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 function App() {
   return (
     <>
-      <h1>Test</h1>
+      <Navbar />
+      <HeroSection />
     </>
   );
 }
